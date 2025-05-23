@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="">
+      Username:
+      <input
+        type="text"
+        placeholder="Enter your username"
+        required
+      /><br /><br />
+      Password: <input type="text" placeholder="Enter your Password" required />
+    </form>
+    <br />
+
+    <form action="hello">
+      <label for="username">Username </label>
+      <input type="text" placeholder="Enter your username" id="user_username" required />
+      <label for="password">password</label>
+      <input type="password" id="user_password" placeholder="Enter your password" required />
+      <br>
+      <label for="user_date">Date:</label>
+      <input type="date" id="user_date">
+      <br>
+      File: <input type="file">
+      <br>
+      Color: <input type="color">
+      <br>
+      Price Range: <input type="range">
+      <br>
+      Click here:<input type="button" value="Done" >
+      <br>
+      <label for="male">Male</label>
+      <input type="radio" id="male" name="gender" value="male">
+      <br>
+      <label for="female">Female</label>
+      <input type="radio" id="female" name="gender" value="female">
+      <br>
+      <label for="other">Other</label>
+      <input type="radio" id="other" name="gender" value="other">
+      <br>
+      <label for="ai">AI</label>
+      <input type="checkbox" id="ai" name="course" value="ai">
+      <br>
+      <label for="data science">data science</label>
+      <input type="checkbox" id="data science" name="course" value="data science">
+      <br>
+      <label for="fruits">Choose one fruit:</label>
+      <select name="fruits" id="fruits">
+        <option value="apple">pick one fruit</option>
+        <option value="kiwi">kiwi</option>
+        <option value="banana">banana</option>
+        <option value="mango">mango</option>
+        <option value="sugarcane">sugarcane</option>
+      </select>
+      <br>
+      <label for="comment">Write your comment:</label> <br>
+      <textarea name="text1" id="comment" rows="3" cols="15">Your thoughts</textarea>
+      <br>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/rklidcZ-aLU?si=vG9NxBj0kLC4_bKz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <br>
+      <iframe src="https://www.wikipedia.org/" frameborder="1" width="400" height="400"></iframe>
+      <br>
+      <input type="submit">
+    </form>
+  </body>
+</html>
